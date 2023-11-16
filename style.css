@@ -1,0 +1,357 @@
+body {
+  background-color: #F3EEEA;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #4F4A45;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 100px;  
+  padding-right: 100px;  
+  font-size: 17px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #4F4A45;
+    color: white;
+    text-align: center;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+    text-align: left;
+    padding-left: 100px;
+}
+
+.footer-right {
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.footer-right img {
+    width: 35px;
+    padding-left: 10px;
+}
+
+.footer-copyright {
+  padding-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 100px;  
+  padding-right: 100px;
+  justify-content: center;
+}
+
+.property {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 355px;
+  word-wrap: break-word;
+}
+
+.property img {
+  width: 355px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.property .harga-lokasi {
+  display:flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  text-align: left;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.property .location {
+  text-align: left;
+}
+
+.property .luas {
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  color: #737373;
+}
+
+.nav-links input[type="text"] {
+  padding: 8px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+.nav-links input[type="text"]::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.nav-links input[type="text"]:focus {
+  outline: none;
+  border-color: #00C1B3;
+}
+
+.about-us-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-container h1 {
+  color: #333;
+}
+
+.about-us-container h2 {
+  color: #333;
+
+  margin-top: 20px;
+}
+
+.about-us-container p {
+  line-height: 1.5;
+}
+
+.about-us-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-us-container ul li {
+  margin-bottom: 10px;
+}
+
+.login-container {
+  max-width: 500px;
+  position: relative;
+  margin: 90px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  color: #333;
+  text-align: center;
+  font-size: 30px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-top: 10px;
+  color: #333;
+}
+
+.login-container input {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container p {
+  margin-top: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.login-container a {
+  color: #00C1B3;
+  text-decoration: none;
+}
+
+.tambah-rumah-form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tambah-rumah-form h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tambah-rumah-form label {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+}
+
+.tambah-rumah-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.tambah-rumah-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.edit-button {
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.delete-button {
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+.search-container {
+  background-color: #4F4A45;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+}
+
+.search-container h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container input {
+  background-color: #F3EEEA;
+  width: 200px;
+  padding: 8px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+.search-container button {
+  background-color: #997f5f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title-container {
+  padding-left: 240px;
+  padding-right: 240px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('icons/background.jpg') center/cover no-repeat;
+  color: #fff;
+}
+
+.title-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title-container p {
+  font-size: 20px;
+}
+
